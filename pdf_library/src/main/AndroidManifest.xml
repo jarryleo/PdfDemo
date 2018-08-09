@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.lm.artifex.mupdfdemo">
+
+    <application
+        android:hardwareAccelerated="true">
+        <activity
+            android:name="MuPDFActivity"
+            android:theme="@style/AppBaseTheme"/>
+        <activity
+            android:name="OutlineActivity"
+            android:label="@string/outline_title"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity
+            android:name="PrintDialogActivity"
+            android:label="@string/print"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+
+    </application>
+
+</manifest>
